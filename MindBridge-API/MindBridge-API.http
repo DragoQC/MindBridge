@@ -1,0 +1,6 @@
+@MindBridge_API_HostAddress = http://localhost:5189
+
+GET {{MindBridge_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

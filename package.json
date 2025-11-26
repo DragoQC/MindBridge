@@ -1,0 +1,24 @@
+{
+  "name": "mindbridge",
+  "version": "1.0.0",
+  "description": "A relaxed little AI brain that rebuilds context from what it knows about you.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -c \"cyan,magenta\" -n \"UI,API\" \"npm --prefix MindBridge-UI run dev\" \"dotnet run --project MindBridge-API\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragoQC/MindBridge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DragoQC/MindBridge/issues"
+  },
+  "homepage": "https://github.com/DragoQC/MindBridge#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,126 @@
+##############################
+#        ROOT IGNORE
+##############################
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / Secrets
+.env
+.env.*
+*.env.local
+*.env.development.local
+*.env.production.local
+*.env.test.local
+
+# Ignore editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+
+##############################
+#        SVELTEKIT (UI)
+##############################
+
+# SvelteKit build files
+/build/
+.svelte-kit/
+.vite/
+
+# Generated files
+MindBridge-UI/node_modules/
+MindBridge-UI/.svelte-kit/
+MindBridge-UI/build/
+MindBridge-UI/.vite/
+
+
+##############################
+#        DOTNET (API)
+##############################
+
+# Build results
+MindBridge-API/bin/
+MindBridge-API/obj/
+MindBridge-API/Debug/
+MindBridge-API/Release/
+MindBridge-API/out/
+
+# User-specific files
+MindBridge-API/.vs/
+MindBridge-API/*.user
+MindBridge-API/*.userosscache
+MindBridge-API/*.suo
+MindBridge-API/*.cache
+MindBridge-API/*.pdb
+MindBridge-API/*.mdb
+
+# Entity Framework Migrations build junk
+MindBridge-API/Migrations/*Designer.cs
+MindBridge-API/Migrations/*.resx
+
+# ASP.NET Runtime secrets (never commit)
+MindBridge-API/appsettings*.json
+# If you want to keep appsettings.Development.json in Git, remove the above line.
+
+# Logs
+MindBridge-API/logs/
+MindBridge-API/*.log
+
+# Publish artifacts
+MindBridge-API/publish/
+MindBridge-API/wwwroot/lib/
+
+# Generated files from tools
+*.db
+*.sqlite
+*.sql
+*.bak
+
+
+##############################
+#        OS FILES
+##############################
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+##############################
+#        GLOBAL PATTERNS
+##############################
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Compiled sources
+*.dll
+*.exe
+*.so
+*.dylib
+*.class
+*.jar
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
