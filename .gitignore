@@ -66,7 +66,8 @@ MindBridge-API/Migrations/*Designer.cs
 MindBridge-API/Migrations/*.resx
 
 # ASP.NET Runtime secrets (never commit)
-MindBridge-API/appsettings*.json
+MindBridge-API/appsettings.Development.json
+MindBridge-API/appsettings.json
 # If you want to keep appsettings.Development.json in Git, remove the above line.
 
 # Logs

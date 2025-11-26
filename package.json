@@ -4,6 +4,7 @@
   "description": "A relaxed little AI brain that rebuilds context from what it knows about you.",
   "main": "index.js",
   "scripts": {
+		"setup": "npm --prefix MindBridge-UI install && dotnet build MindBridge-API",
     "dev": "concurrently -c \"cyan,magenta\" -n \"UI,API\" \"npm --prefix MindBridge-UI run dev\" \"dotnet run --project MindBridge-API\""
   },
   "repository": {
